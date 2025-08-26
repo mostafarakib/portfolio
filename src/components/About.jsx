@@ -1,4 +1,5 @@
 import React from "react";
+import profileImage from "../assets/profile2.jpeg";
 
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
           {/* Profile Image */}
           <div className="order-none lg:order-2 flex justify-center">
             <img
-              src="/profile2.jpeg"
+              src={profileImage}
               alt="My profile"
               className="w-64 h-64 sm:w-74 sm:h-74 rounded-full border-2 border-purple-400 object-cover"
             />
