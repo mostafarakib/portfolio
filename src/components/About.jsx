@@ -17,7 +17,7 @@ function About() {
           {/* Profile Image */}
           <div className="order-none lg:order-2 flex justify-center">
             <img
-              src="/public/profile2.jpeg"
+              src="/profile2.jpeg"
               alt="My profile"
               className="w-64 h-64 sm:w-74 sm:h-74 rounded-full border-2 border-purple-400 object-cover"
             />
